@@ -70,6 +70,7 @@ if uploaded_file is not None:
 else:
     st.warning("Please upload a PDF file to proceed.")
 
+
     # def process_rag_response(question):
 
     #     try:
