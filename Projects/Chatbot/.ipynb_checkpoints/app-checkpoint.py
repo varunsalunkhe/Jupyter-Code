@@ -34,7 +34,6 @@ if uploaded_file is not None:
     # st.write("Attempting to create the HuggingFace model...")
     model = create_huggingface_model()
     # st.success("Model created successfully!")
-    main_placeholder.write("Model created successfully!")
 
     
 
@@ -57,7 +56,6 @@ if uploaded_file is not None:
                                 verbose = False)
     
     # st.success("RAG pipeline created successfully!")
-    main_placeholder.write("RAG pipeline created successfully!")
     
     # User Input for Questions
     question = st.text_input("Ask a question")
